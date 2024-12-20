@@ -58,7 +58,7 @@ jobs:
 
       # Install Kubectl and Helm CLI
       - name: Setup Kubectl and Helm
-        uses: yokawasa/action-setup-kube-tools@v0.11.1
+        uses: yokawasa/action-setup-kube-tools@v0.11.2
         with:
           setup-tools: |
             kubectl
