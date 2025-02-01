@@ -123,7 +123,7 @@ deploy_kube-prometheus-stack() {
   helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
   helm repo update
   helm upgrade --install kube-prometheus-stack prometheus-community/kube-prometheus-stack \
-    --version 61.1.1 \
+    --version 68.4.4 \
     -f ./k8s-values/values.kube-prometheus-stack.yaml \
     -n monitoring \
     --create-namespace \
